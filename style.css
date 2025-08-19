@@ -1,0 +1,186 @@
+.container{
+    display: grid;
+    grid-template-areas: "eden eden dva"
+    "tri tri dva";
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 6px;
+    min-height: 100vh;
+   
+}
+body{
+     background-color: hsl(0, 0%, 81%);
+}
+.jona{
+    background-color: hsl(217, 19%, 35%);
+    padding: 4px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+
+.daniel{
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-size: 41px 26.5px;
+    background-repeat: no-repeat;
+    background-color:  hsl(263, 55%, 52%);
+    background-position: top right 15px;
+    padding: 4px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+.daniellogo{
+    display: grid;
+    grid-template-areas: "slikad tekstd_h3"
+    "slikad tekstd_h4";
+    grid-template-columns: 0.6fr 6.3fr;
+    margin: 4px;
+}
+
+
+.daniellogo img{
+    grid-area: slikad;
+    width: 8px;
+}
+
+.daniellogo h3{
+    grid-area:tekstd_h3;
+}
+.daniellogo h4{
+    grid-area:tekstd_h4;
+}
+
+.jeanet{
+    padding: 4px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+
+.jeanetlogo{
+    display: grid;
+    grid-template-areas: "slikad tekstd_h3"
+    "slikad tekstd_h4";
+    grid-template-columns: 2.5fr 8fr;
+    margin: 4px;
+}
+
+
+.jeanetlogo img{
+    grid-area: slikad;
+    width: 8px;
+}
+
+.jeanetlogo h3{
+    grid-area:tekstd_h3;
+}
+.jeanetlogo h4{
+    grid-area:tekstd_h4;
+}
+
+
+.patrick{
+    background-color: hsl(219, 29%, 14%);
+    padding: 4px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+.patricklogo{
+    display: grid;
+    grid-template-areas: "slikad tekstd_h3"
+    "slikad tekstd_h4";
+    grid-template-columns: 0.8fr 8fr;
+    margin: 4px;
+    
+}
+
+
+.patricklogo img{
+    grid-area: slikad;
+    width: 8px;
+}
+
+.patricklogo h3{
+    grid-area:tekstd_h3;
+}
+.patrick h4{
+    grid-area:tekstd_h4;
+}
+
+
+
+.jonalogo{
+    display: grid;
+    grid-template-areas: "slikaj tekstj_h3"
+    "slikaj tekstj_h4";
+    grid-template-columns: 2fr 6fr;
+    margin: 4px;
+}
+.jonalogo img{
+    grid-area: slikaj;
+}
+
+.jonalogo h3{
+    grid-area:tekstj_h3;
+}
+.jonalogo h4{
+    grid-area:tekstj_h4;
+}
+
+.eden1{
+    grid-area: eden;
+    display: grid;
+    grid-template-columns: 3.6fr 1.5fr;
+   gap: 6px;
+    
+    
+}
+.dva2{
+    grid-area: dva;
+    background-color: hsl(0, 0%, 100%);
+    padding: 4px;
+    border-radius: 8px;
+    
+    
+}
+.tri3{
+    grid-area: tri;
+    display: grid;
+    grid-template-columns: 1.5fr 3.6fr;
+    gap: 6px;
+}
+
+ h3, h4{
+    font-size: 4px;
+    margin: 0%;
+}
+
+h6{
+    font-size: 4.5px;
+    margin: 1%;
+}
+
+p{
+    font-size: 3.4px;
+}
+img{
+border-radius: 50%;
+width: 70%;
+}
+
+.kiralogo{
+    display: grid;
+    grid-template-areas: "slika tekst_h3"
+    "slika tekst_h4";
+    grid-template-columns: 1fr 4fr;
+    margin: 4px;
+}
+.kiralogo img{
+    grid-area: slika;
+}
+
+.kiralogo h3{
+    grid-area:tekst_h3;
+}
+.kiralogo h4{
+    grid-area:tekst_h4;
+}
+
+
