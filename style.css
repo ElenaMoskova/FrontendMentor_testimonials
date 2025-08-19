@@ -1,29 +1,26 @@
+
+@media (min-width: 1440px) {
 .container{
     display: grid;
     grid-template-areas: "eden eden dva"
     "tri tri dva";
     grid-template-columns: 2fr 1fr 1fr;
-    gap: 6px;
+    gap: 15px;
     min-height: 100vh;
    
 }
 body{
      background-color: hsl(0, 0%, 81%);
-}
-.jona{
-    background-color: hsl(217, 19%, 35%);
-    padding: 4px;
-    color: hsl(0, 0%, 100%);
-    border-radius: 8px;
+     padding: 10px;
 }
 
 .daniel{
     background-image: url("images/bg-pattern-quotation.svg");
-    background-size: 41px 26.5px;
+    background-size: 150px 120px;
     background-repeat: no-repeat;
     background-color:  hsl(263, 55%, 52%);
-    background-position: top right 15px;
-    padding: 4px;
+    background-position: top right 130px;
+    padding: 20px;
     color: hsl(0, 0%, 100%);
     border-radius: 8px;
 }
@@ -31,14 +28,14 @@ body{
     display: grid;
     grid-template-areas: "slikad tekstd_h3"
     "slikad tekstd_h4";
-    grid-template-columns: 0.6fr 6.3fr;
-    margin: 4px;
+    grid-template-columns: 1fr 12fr;
+    margin: 15px;
 }
 
 
 .daniellogo img{
     grid-area: slikad;
-    width: 8px;
+    width: 35px;
 }
 
 .daniellogo h3{
@@ -48,8 +45,58 @@ body{
     grid-area:tekstd_h4;
 }
 
+
+.jona{
+    background-color: hsl(217, 19%, 35%);
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+
+.jonalogo{
+    display: grid;
+    grid-template-areas: "slikaj tekstj_h3"
+    "slikaj tekstj_h4";
+    grid-template-columns: 1.3fr 5fr;
+   margin: 15px;
+}
+.jonalogo img{
+    grid-area: slikaj;
+     width: 35px;
+}
+
+.jonalogo h3{
+    grid-area:tekstj_h3;
+}
+.jonalogo h4{
+    grid-area:tekstj_h4;
+}
+
+
+
+.kiralogo{
+    display: grid;
+    grid-template-areas: "slika tekst_h3"
+    "slika tekst_h4";
+    grid-template-columns: 1fr 5fr;
+    margin: 15px;
+}
+.kiralogo img{
+    grid-area: slika;
+    width: 35px;
+}
+
+.kiralogo h3{
+    grid-area:tekst_h3;
+      
+}
+.kiralogo h4{
+    grid-area:tekst_h4;
+}
+
+
 .jeanet{
-    padding: 4px;
+    padding: 10px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
 }
@@ -58,14 +105,14 @@ body{
     display: grid;
     grid-template-areas: "slikad tekstd_h3"
     "slikad tekstd_h4";
-    grid-template-columns: 2.5fr 8fr;
-    margin: 4px;
+    grid-template-columns: 1.3fr 6fr;
+     margin: 15px;
 }
 
 
 .jeanetlogo img{
     grid-area: slikad;
-    width: 8px;
+    width: 35px;
 }
 
 .jeanetlogo h3{
@@ -78,7 +125,7 @@ body{
 
 .patrick{
     background-color: hsl(219, 29%, 14%);
-    padding: 4px;
+    padding: 15px;
     color: hsl(0, 0%, 100%);
     border-radius: 8px;
 }
@@ -86,7 +133,7 @@ body{
     display: grid;
     grid-template-areas: "slikad tekstd_h3"
     "slikad tekstd_h4";
-    grid-template-columns: 0.8fr 8fr;
+    grid-template-columns: 0.8fr 9.5fr;
     margin: 4px;
     
 }
@@ -94,7 +141,7 @@ body{
 
 .patricklogo img{
     grid-area: slikad;
-    width: 8px;
+     width: 35px;
 }
 
 .patricklogo h3{
@@ -106,37 +153,22 @@ body{
 
 
 
-.jonalogo{
-    display: grid;
-    grid-template-areas: "slikaj tekstj_h3"
-    "slikaj tekstj_h4";
-    grid-template-columns: 2fr 6fr;
-    margin: 4px;
-}
-.jonalogo img{
-    grid-area: slikaj;
-}
-
-.jonalogo h3{
-    grid-area:tekstj_h3;
-}
-.jonalogo h4{
-    grid-area:tekstj_h4;
-}
 
 .eden1{
     grid-area: eden;
     display: grid;
     grid-template-columns: 3.6fr 1.5fr;
-   gap: 6px;
+   gap: 15px;
     
     
 }
 .dva2{
     grid-area: dva;
     background-color: hsl(0, 0%, 100%);
-    padding: 4px;
+    padding: 20px;
     border-radius: 8px;
+    
+    
     
     
 }
@@ -144,43 +176,28 @@ body{
     grid-area: tri;
     display: grid;
     grid-template-columns: 1.5fr 3.6fr;
-    gap: 6px;
+    gap: 15px;
 }
 
  h3, h4{
-    font-size: 4px;
+    font-size: 10px;
     margin: 0%;
 }
 
 h6{
-    font-size: 4.5px;
+    font-size: 25px;
     margin: 1%;
 }
 
 p{
-    font-size: 3.4px;
+    font-size: 18px;
 }
 img{
 border-radius: 50%;
-width: 70%;
-}
-
-.kiralogo{
-    display: grid;
-    grid-template-areas: "slika tekst_h3"
-    "slika tekst_h4";
-    grid-template-columns: 1fr 4fr;
-    margin: 4px;
-}
-.kiralogo img{
-    grid-area: slika;
-}
-
-.kiralogo h3{
-    grid-area:tekst_h3;
-}
-.kiralogo h4{
-    grid-area:tekst_h4;
+width: 60%;
 }
 
 
+
+
+}
