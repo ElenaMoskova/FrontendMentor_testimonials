@@ -1,5 +1,5 @@
 
-@media (min-width: 1440px) {
+   
 .container{
     display: grid;
     grid-template-areas: "eden eden dva"
@@ -199,5 +199,34 @@ width: 60%;
 
 
 
+
+
+
+@media screen and (max-width: 650px) {
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+     grid-template-areas: 
+    'eden'
+    'tri'
+    'dva';
+  
+}
+
+.eden1{
+    grid-area: eden;
+    display: grid;
+    grid-template-columns: 1fr;
+   gap: 15px;
+    
+    
+}
+
+.tri3{
+    grid-area: tri;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
 
 }
